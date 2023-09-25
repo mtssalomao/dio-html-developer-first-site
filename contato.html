@@ -29,11 +29,17 @@
                 <div id="form">
                     <form name="contato" method="get" action="#">
                         <div>
-                            <b>Nome:</b> <input type="text" name="name"><br><br>
-                            <b>E-mail:</b> <input type="email" name="email"><br><br>
-                            <b>Assunto:</b> <input type="text" name="assunto"><br><br>
-                            <b>Mensagem:</b> <br>
-                            <textarea name="mensagem" id="" cols="30" rows="5"></textarea>
+                            <fieldset>
+                                <legend><b>Identificação:</b></legend>
+                                <b>Nome:</b> <input type="text" name="name"><br><br>
+                                <b>E-mail:</b> <input type="email" name="email"><br><br>
+                            </fieldset>
+                            <br><fieldset>
+                                <legend><b>Mensagem:</b></legend>
+                                <b>Assunto:</b> <input type="text" name="assunto"><br><br>
+                                <b>Mensagem:</b> <br>
+                                <textarea name="mensagem" id="" cols="30" rows="5"></textarea>
+                            </fieldset>
                         </div>
                         <div id="button">
                             <button type="submit">Enviar</button>

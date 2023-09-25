@@ -75,7 +75,11 @@ table tbody tr:hover td {
 }
 form div {
     padding: 10px;
-    
+}
+fieldset {
+    border-radius: 10px;
+    width: 250px;
+    align-items: center;
 }
 #video-e-texto-home {
     display: flex;
